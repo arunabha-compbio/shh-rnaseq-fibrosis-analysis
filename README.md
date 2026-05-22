@@ -131,7 +131,7 @@ Overall interpretation:
 
 | File | Description |
 |------|-------------|
-| `shh_analysis.R` | Full R analysis pipeline |
+| `Shh_fibrosis.R` | Full R analysis pipeline |
 | `counts.txt` | featureCounts RNA-seq count matrix |
 | `SHH_analysis_report.pdf` | Internship assignment report |
 | `plots/` | Generated figures |
