@@ -365,7 +365,7 @@ The interaction network demonstrates functional connectivity between SHH signali
 
 ## Author
 
-- Arunabha Pal  
-- _St. Xavier’s College (Autonomous), Kolkata_
-- Bsc Microbiology
-- Internship Project — *Epigenomics Lab, University of Calcutta*
+# Arunabha Pal  
+# _St. Xavier’s College (Autonomous), Kolkata_
+# Bsc Microbiology
+# Internship Project — *Epigenomics Lab, University of Calcutta*
