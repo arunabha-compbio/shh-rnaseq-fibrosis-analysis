@@ -255,6 +255,20 @@ The enrichment profile supports inflammatory fibrotic remodeling and altered SHH
 
 ---
 
+## Skills Demonstrated
+
+- RNA-seq transcriptomic analysis
+- R programming
+- Differential expression analysis
+- Gene set enrichment analysis (GSEA)
+- GO and KEGG pathway analysis
+- Biological pathway interpretation
+- Data visualization in ggplot2
+- FeatureCounts count matrix processing
+- Transcriptomic fibrosis analysis
+  
+---
+
 ## Limitations
 
 - Only one control and one GR1 sample were available.
