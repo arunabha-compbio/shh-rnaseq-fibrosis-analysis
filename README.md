@@ -115,6 +115,63 @@ Overall interpretation:
 
 ---
 
+## Genes present under Sonic Hedgehog (SHH) signalling pathway:
+
+The repository includes processed transcriptomic results generated from the RNA-seq count matrix. The top 20 up and down regulated genes are mentioned as well as the SHH specific genes.
+
+### Available CSV Files
+
+- [SHH Gene Results](SHH_gene_results.csv)
+- [Top 20 Upregulated Genes](Top20_Upregulated_Genes.csv)
+- [Top 20 Downregulated Genes](Top20_Downregulated_Genes.csv)
+
+### Example Results Preview
+
+| Gene | log2FoldChange | Status |
+|------|----------------|--------|
+| Mycn | 2.45 | Activated |
+| Snai1 | 1.52 | Activated |
+| Gli1 | -0.63 | Suppressed |
+| Hhip | -0.71 | Suppressed |
+
+## Required codes to generate these files:
+
+### Top 20 Upregulated Genes
+
+```r
+top20_up <- res_final[
+  order(res_final$log2FoldChange,
+        decreasing = TRUE),
+][1:20, ]
+
+write.csv(top20_up,
+          "Top20_Upregulated_Genes.csv",
+          row.names = FALSE)
+```
+
+### Top 20 Downregulated Genes
+
+```r
+top20_down <- res_final[
+  order(res_final$log2FoldChange,
+        decreasing = FALSE),
+][1:20, ]
+
+write.csv(top20_down,
+          "Top20_Downregulated_Genes.csv",
+          row.names = FALSE)
+```
+
+### SHH-only Gene Results
+
+```r
+write.csv(shh_data,
+          "SHH_gene_results.csv",
+          row.names = FALSE)
+```
+
+---
+
 ## Generated Visualizations
 
 - SHH pathway heatmap
