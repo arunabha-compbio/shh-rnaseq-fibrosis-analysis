@@ -243,6 +243,36 @@ The enrichment profile supports inflammatory fibrotic remodeling and altered SHH
 
 ---
 
+## 8. STRING Protein Interaction Network
+
+![STRING Network](string_hires_image.png)
+
+Protein interaction analysis was performed using the STRING database to investigate functional connectivity between key SHH-associated fibrosis and remodeling genes.
+
+### Genes Included
+
+- GLI2
+- TGFB1
+- FN1
+- SNAI1
+- MYCN
+
+### Rationale for Gene Selection
+
+These genes were selected because they represent interconnected components of SHH-associated fibrotic remodeling:
+
+- GLI2 → non-canonical SHH transcriptional activation
+- TGFB1 → central profibrotic signaling regulator
+- FN1 → extracellular matrix remodeling
+- SNAI1 → epithelial-mesenchymal transition (EMT)
+- MYCN → SHH downstream proliferative target
+
+### Interpretation
+
+The interaction network demonstrates functional connectivity between SHH signaling effectors, fibrosis regulators and extracellular matrix remodeling genes, supporting the hypothesis of SHH-associated inflammatory fibrotic repair in GR1 samples.
+
+---
+
 ## Repository Contents
 
 | File | Description |
