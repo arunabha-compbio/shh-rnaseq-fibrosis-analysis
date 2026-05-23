@@ -124,6 +124,122 @@ Overall interpretation:
 - Fibrosis/repair pathway plots
 - GO enrichment analysis
 - KEGG pathway enrichment analysis
+- 
+## 1. SHH Pathway Gene Expression Heatmap
+
+![SHH Heatmap](SHH_pathway_gene_heatmap.png)
+
+Row-scaled heatmap showing relative SHH pathway gene expression across Control and GR1 samples.
+
+### Key observations
+
+- Distinct separation between activated and suppressed SHH-associated genes
+- Elevated Mycn and Snai1 expression in GR1
+- Reduced Gli1 and Ptch1 expression
+
+### Interpretation
+
+The heatmap supports altered SHH pathway regulation and confirms fold-change trends observed in other analyses.
+
+## 2. Fold-change bar plots
+
+![SHH Expression Fold Change](SHH_expression_foldchange.png)
+
+This plot visualizes differential expression of SHH pathway genes between GR1 and control samples using log2 fold change values.
+
+### Key observations
+
+- Strong activation of Mycn and Snai1
+- Moderate activation of Gli2 and Dhh
+- Suppression of Gli1 and Hhip
+
+### Interpretation
+
+The dataset indicates dysregulated SHH signaling with simultaneous suppression of canonical components and activation of fibrosis-associated effectors.
+
+## 3. SHH Genes Grouped by Functional Role
+
+![Functional Role Plot](SHH_genes_functional_role_upordown_regulated.png)
+
+Genes were grouped according to their functional role within the SHH signaling pathway.
+
+### Categories included
+
+- Ligands
+- Receptors / Co-receptors
+- GLI transcription factors
+- Regulators
+- Downstream targets
+
+### Interpretation
+
+The pathway appears functionally dysregulated, with suppression of canonical SHH signaling but continued activation of downstream remodeling-associated genes.
+
+## 4. SHH Signalling Pathway Gene Expression
+
+![SHH Signalling Pathway](SHH_signalling.png)
+
+This plot shows the log2 fold change of SHH pathway-associated genes in GR1 relative to control samples.
+
+### Key observations
+
+- Dhh, Gli2, Mycn and Snai1 were upregulated
+- Gli1, Ptch1, Hhip and Sufu were downregulated
+- Mycn showed the strongest activation signal
+
+### Interpretation
+
+The expression pattern suggests suppression of canonical SHH signaling together with activation of remodeling-associated downstream targets.
+
+## 5. SHH Effectors and Fibrosis/Repair Genes
+
+![Fibrosis Repair Plot](SHH_effector_and_fibrosis_repair.png)
+
+This plot connects SHH pathway alterations with fibrosis and tissue repair-associated genes.
+
+### Key observations
+
+- Increased Tgfb1, Col1a1, Col1a2, Fn1 and Acta2 expression
+- Gli2 activation associated with fibrosis markers
+- Evidence of extracellular matrix remodeling
+
+### Interpretation
+
+The dataset suggests active fibrosis-associated tissue remodeling and inflammatory repair responses in GR1 samples.
+
+## 6. GSEA GO Biological Process Enrichment
+
+![GO Enrichment](GSEA_GO_enrichment.png)
+
+Gene Set Enrichment Analysis (GSEA) identified significantly enriched biological processes associated with GR1-upregulated genes.
+
+### Enriched processes
+
+- Leukocyte migration
+- Chemotaxis
+- Inflammatory response
+- Angiogenesis regulation
+
+### Interpretation
+
+The transcriptome demonstrates activation of inflammatory and immune-associated remodeling pathways.
+
+## 7. GSEA KEGG Pathway Enrichment
+
+![KEGG Enrichment](GSEA_KEGG_pathway.png)
+
+KEGG pathway enrichment analysis identified major signaling and remodeling pathways associated with GR1 samples.
+
+### Enriched pathways
+
+- Cytokine-cytokine receptor interaction
+- IL-17 signaling
+- Complement cascades
+- Neutrophil extracellular trap formation
+
+### Interpretation
+
+The enrichment profile supports inflammatory fibrotic remodeling and altered SHH-associated signaling.
 
 ---
 
@@ -149,6 +265,6 @@ Overall interpretation:
 ## Author
 
 Arunabha Pal  
-St. Xavier’s College (Autonomous), Kolkata
-
+_St. Xavier’s College (Autonomous), Kolkata_
+Bsc Microbiology
 Internship Project — Epigenomics Lab, University of Calcutta
