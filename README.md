@@ -300,7 +300,7 @@ The enrichment profile supports inflammatory fibrotic remodeling and altered SHH
 
 ---
 
-## 8. STRING Protein Interaction Network
+## STRING Protein Interaction Network
 
 ![STRING Network](string_hires_image.png)
 
